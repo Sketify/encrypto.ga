@@ -2,7 +2,7 @@
 
 header("Access-Control-Allow-Origin: *");
 
-include ('connection1.php');
+include ('connection.php');
 
 if ($con->connect_error) {
   echo "Error: Connection failed: " . $con->connect_error;
