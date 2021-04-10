@@ -2,7 +2,7 @@
          <?php
             
                 
-                include ('connection1.php') ;
+                include ('connection.php') ;
                 
           if($con->connect_error){
               
